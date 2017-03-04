@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lesson1</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_clear">Clear</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_open_popup">Open PopupMenu</string>
+    <string name="hint_tittle_note">Заголовок</string>
+    <string name="hint_text_note">Текст</string>
+    <string name="btn_save_note">Сохранить</string>
+    <string name="btn_cancel_note">Отмена</string>
+    <string name="btn_ok_note">Ок</string>
+</resources>

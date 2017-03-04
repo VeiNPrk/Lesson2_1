@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1">
+    <EditText
+		style="@style/TittleEditText"
+        android:id="@+id/et_tittle_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:hint="@string/hint_tittle_note"		/>
+    <EditText
+		style="@style/TextEditText"
+        android:id="@+id/et_text_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+		android:hint="@string/hint_text_note"
+		android:inputType="textMultiLine"
+		android:minLines="10"
+        android:maxLines="30"
+        android:gravity="top" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center_vertical|right"
+        android:layout_weight="0.1">
+
+    <Button
+        android:id="@+id/btn_cancel_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="@string/btn_cancel_note"
+        android:layout_weight="1"
+        android:visibility="gone" />
+        <Button
+        android:id="@+id/btn_save_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save_note"
+        android:layout_weight="1"
+        android:visibility="gone" />
+	<Button
+        android:id="@+id/btn_ok_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:text="@string/btn_ok_note"
+        android:layout_weight="0.9"/>
+    </LinearLayout>
+</LinearLayout>
